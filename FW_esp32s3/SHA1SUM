@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+4e435ccca9a455f8c180bf697e0196529c5baf76  ./xipImage
+f3e70d8b336798844e84551f79a177f41b8e5631  ./etc.jffs2
+f8eb80420afaca3f2dc2e29e8d96bd7d13cf7a39  ./network_adapter.bin
+7304a0aeecf0bc3e3b44cc8d0e188e4fefb711e7  ./rootfs.cramfs
+0f30b2e9127f8d4046ede4f861b6aa8c5161f7cb  ./flash_args
+5cf71127e947e1f9801732f82cd6a50f6d41f018  ./partition-table.bin
+d9fadb58860d60a9cf06b0ccba467d992658df82  ./bootloader.bin
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEK2eFS5jlMn3N6xfYUfnMkfg/oEQFAmTxtSwTHGpjbXZia2Jj
+QGdtYWlsLmNvbQAKCRBR+cyR+D+gROhwEACHnI9HHU/jkBCA5FQcya3+D8Co0kE9
+lENsUB1A1dvSe/DUKqJwnn+BHyZZfoRiGPuz3pLVMo4ww/AqWKNZJ+KKA7DE0Dv/
+UHrdVVfR2Sivg0nY2S5eDYBhlMIlC/aLmrqYSq0hjnxlsMYvxssu9nOERptLMraU
+kF7GyyBqe9u+ageSfTe2mVqsxnesSa2cV9MFVkOShuigK8My69QSoKLONep8apXM
+xsf75Lv9VjAI0ZHwKwqt7KMpiR5rmo2+jlq3KCShpA5u9CQqcWtJ9avM4EdvzbEW
+pOL++SwK41dhw1AvBPaAwTtspp/4jh3jsRLk0T+SO+efPLBpOBrdTNyWADag/REL
++Z8+DTeCC+27neIPUe8w+AHoAnAC+w7ewkdoE67S8r0Ti5C/iETZqd+qrhu3jTRx
+0O4URYoNuAwT1pwEc3Wk/67UxNReAjH2KwpxqbZmZI+VusYuz79FFZj2SSFffLiB
+rs/39rFOrXpwxWiV1YB4FqzZZfPwS1Vgma5S6JUfN+Jvnv1tscejsuGOQ3i8wo9O
+hpkyX0Uj/FPDe/A4rMYSOaJnpNTXf7AWIuYfWsRfwmc4DuEXT/lHD2QwCIdmpGcf
+S7zoRsvljORQMEiFFoTqWWfkiapwO0rZKShU2ukcEZs0ZtRrE1kOIeqflA0so7ra
+7EaQaezgxx8vfQ==
+=RIj+
+-----END PGP SIGNATURE-----

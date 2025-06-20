@@ -1,0 +1,22 @@
+#!/bin/bash
+echo "SUDOFLASH - a tool to Flash Linux to Sudosom-S3"
+echo "_______________________________________________"
+echo "Binaries must be in the same folder as this script."
+echo "Put your Sudosom in Download mode--> close Jumper (GPIO0 to GND)"
+echo "and connect it to this computer"
+
+python /$HOME/$USER/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32s3 -p /dev/ttyUSB0 -b 921600 --before=default_reset --after=hard_reset write_flash 0x0 bootloader.bin 0x10000 network_adapter.bin 0x8000 partition-table.bin
+
+
+python /$HOME/$USER/esp/esp-idf/components/partition_table/parttool.py write_partition --partition-name linux --input xipImage
+
+
+
+python /$HOME/$USER/esp/esp-idf/components/partition_table/parttool.py write_partition --partition-name rootfs --input rootfs.cramfs
+
+
+
+
+
+python /$HOME/$USER/esp/esp-idf/components/partition_table/parttool.py write_partition --partition-name etc --input etc.jffs2
+
